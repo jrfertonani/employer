@@ -1,5 +1,7 @@
 package Back.employer.service;
 
+import Back.employer.domain.DTO.employerDTO;
+import Back.employer.domain.entity.Employer;
 import Back.employer.repository.employerRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +15,7 @@ public class employerService {
 
     @Autowired
     public employerRepository repository;
+
 
 
 }
