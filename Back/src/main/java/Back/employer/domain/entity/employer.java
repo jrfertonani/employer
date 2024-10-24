@@ -1,5 +1,6 @@
 package Back.employer.domain.entity;
 
+import Back._config.Enums.LevelJob;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -18,6 +19,6 @@ public class employer implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idEmployer;
     private String name;
-
+    private LevelJob levelJob;
 
 }
