@@ -11,6 +11,7 @@ public class employerDTO {
 
     private Long idEmployer;
     private String name;
+    private Integer levelJob;
 
 
 
