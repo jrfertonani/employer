@@ -4,8 +4,6 @@ package Back._config.Exeptions.resourceExceptions;
 
 import Back._config.Exeptions.serviceExceptions.DataIntegrityViolationException;
 import Back._config.Exeptions.serviceExceptions.ObjectNotFoundException;
-import back._config.Exeptions.serviceExceptions.DataIntegrityViolationException;
-import back._config.Exeptions.serviceExceptions.ObjectNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
