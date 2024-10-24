@@ -33,5 +33,9 @@ public enum LevelJob {
         throw new IllegalArgumentException("Level job Invalid : " + cod);
     }
 
+    private Integer getCodigo() {
+        return null;
+    }
+
 }
 
